@@ -792,8 +792,16 @@ nav{
     .events .subscribe{
         width: 50%;
     }
+    .events .dots1 ,
+    .events .dots2 {
+        z-index: -1;
+    }
 }
 @media(max-width : 991px){
+    .events .dots1 ,
+    .events .dots2 {
+        display: none;
+    }
     .events .subscribe{
         width: 90%;
         flex-direction: column;
